@@ -40,10 +40,12 @@ export default function Programmers() {
       return null
     } else {
       const fP = list.find( e => {
-        console.log(e)
+        // console.log(e)
+        
         return featured === e.id
       })
       return fP,name
+      
     }
   };
 
